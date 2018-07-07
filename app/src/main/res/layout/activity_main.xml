@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="375dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         app:srcCompat="@drawable/mcd" />
@@ -21,12 +21,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="60dp"
-        android:layout_marginStart="60dp"
+        android:layout_marginBottom="75dp"
+        android:layout_marginStart="52dp"
         android:lineSpacingExtra="8sp"
         android:text="@string/login"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="24sp"
+        android:textSize="16sp"
         android:visibility="visible" />
 
     <Button
@@ -36,11 +36,11 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="60dp"
-        android:layout_marginEnd="60dp"
+        android:layout_marginEnd="50dp"
         android:lineSpacingExtra="8sp"
         android:text="Register"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="24sp"
+        android:textSize="16sp"
         android:visibility="visible"
         />
 </RelativeLayout>
